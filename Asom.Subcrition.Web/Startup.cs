@@ -1,4 +1,6 @@
+using AppSubscription.Business.Service.ObjectMapper;
 using Asom.Database.Context;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,9 @@ namespace Asom.Subcrition.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var config = new MapperConfiguration(v => v.AddProfile(new ApplicationProfile()));
+            var mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
