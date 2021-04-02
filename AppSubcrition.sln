@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{67367CA5-E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Database", "Asom.Database\App.Database.csproj", "{60D73206-849E-4C1C-BFA1-DAA82FB35532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSubscription.Data.Service", "AppSubscription.Data.Service\AppSubscription.Data.Service.csproj", "{5D339F21-F241-4C43-B9F5-B2486F988164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSubscription.Data.Service", "AppSubscription.Data.Service\AppSubscription.Data.Service.csproj", "{5D339F21-F241-4C43-B9F5-B2486F988164}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{46CBAEC8-743E-472C-A27D-95F2CDB8E3B5}"
 EndProject
@@ -23,9 +23,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTesting", "IntegrationTesting", "{5EE95027-A4AA-4176-9531-A3EFB5CB3B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Subscription.Core", "Test.Subscription.Core\Test.Subscription.Core.csproj", "{5F2CB29F-724F-4BD1-B4FD-F648BB4C2B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Subscription.Core", "Test.Subscription.Core\Test.Subscription.Core.csproj", "{5F2CB29F-724F-4BD1-B4FD-F648BB4C2B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest.Subscription", "IntegrationTest.Subscription\IntegrationTest.Subscription.csproj", "{72C767F2-23BA-4BDE-B0AF-CD5AC99DCF23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTest.Subscription", "IntegrationTest.Subscription\IntegrationTest.Subscription.csproj", "{72C767F2-23BA-4BDE-B0AF-CD5AC99DCF23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSubscription.Business.Service", "AppSubscription.Business.Service\AppSubscription.Business.Service.csproj", "{1718FE9F-85B1-41F4-8625-F47126B46F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSubription.Business.Abstraction", "AppSubription.Business.Abstraction\AppSubription.Business.Abstraction.csproj", "{1184353B-D49A-4DC0-A101-E82DDDEDC964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,14 @@ Global
 		{72C767F2-23BA-4BDE-B0AF-CD5AC99DCF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C767F2-23BA-4BDE-B0AF-CD5AC99DCF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C767F2-23BA-4BDE-B0AF-CD5AC99DCF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1718FE9F-85B1-41F4-8625-F47126B46F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1718FE9F-85B1-41F4-8625-F47126B46F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1718FE9F-85B1-41F4-8625-F47126B46F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1718FE9F-85B1-41F4-8625-F47126B46F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1184353B-D49A-4DC0-A101-E82DDDEDC964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1184353B-D49A-4DC0-A101-E82DDDEDC964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1184353B-D49A-4DC0-A101-E82DDDEDC964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1184353B-D49A-4DC0-A101-E82DDDEDC964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +77,8 @@ Global
 		{5EE95027-A4AA-4176-9531-A3EFB5CB3B65} = {46CBAEC8-743E-472C-A27D-95F2CDB8E3B5}
 		{5F2CB29F-724F-4BD1-B4FD-F648BB4C2B25} = {7EB719BA-8143-4643-BAF7-97501F83B094}
 		{72C767F2-23BA-4BDE-B0AF-CD5AC99DCF23} = {5EE95027-A4AA-4176-9531-A3EFB5CB3B65}
+		{1718FE9F-85B1-41F4-8625-F47126B46F2D} = {B556B43C-CF7F-4116-98DA-29EA97050753}
+		{1184353B-D49A-4DC0-A101-E82DDDEDC964} = {B556B43C-CF7F-4116-98DA-29EA97050753}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {80B9EE60-02BF-4F9B-8342-79ADA1B02612}

@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Asom.Database\App.Database.csproj" />
+    <Folder Include="Interface\" />
   </ItemGroup>
 
 </Project>

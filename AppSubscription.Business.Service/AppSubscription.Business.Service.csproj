@@ -20,6 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppSubription.Business.Abstraction\AppSubription.Business.Abstraction.csproj" />
     <ProjectReference Include="..\Asom.Database\App.Database.csproj" />
   </ItemGroup>
 

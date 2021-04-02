@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace AppSubscription.Data.Service.Repository
 {
@@ -12,6 +13,26 @@ namespace AppSubscription.Data.Service.Repository
     {
         public ProductRepo(DbContext context) : base(context)
         {
+        }
+
+        public Task AddProduct(Product model)
+        {
+            return Task.CompletedTask;
+        }
+
+        public Task GetProduct(Product model)
+        {
+            return Task.CompletedTask;
+        }
+
+        public Task RemoveProduct(Product model)
+        {
+            return Task.CompletedTask;
+        }
+
+        public Task UpdateProduct(Product model)
+        {
+            return Task.CompletedTask;
         }
     }
 }
